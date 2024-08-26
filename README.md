@@ -8,23 +8,26 @@ Results: Data Preprocessing
 
 ## Results: 
 ## Data Preprocessing
-    •	Target Variable:
-        o	The target variable for the model is "IS_SUCCESSFUL"
-    •	Features:
-        o	After deleting “EIN” and “NAME” features, the remaining features include:
-              	APPLICATION_TYPE
-              	AFFILIATION
-              	CLASSIFICATION
-              	USE_CASE
-              	ORGANIZATION
-              	STATUS
-              	INCOME_AMT
-              	SPECIAL_CONSIDERATIONS
-              	ASK_AMT
-    •	Dropped Features:
-        o	During optimization:
-              	In v1: Dropped “STATUS,” “AFFILIATION,” and “SPECIAL_CONSIDERATIONS.” Surprisingly, this had -ve impact on accuracy.
-              	In v3: Dropped “STATUS.”
+•	Target Variable:
+    o	The target variable for the model is "IS_SUCCESSFUL"
+•	Features:
+    o	After deleting “EIN” and “NAME” features, the remaining features include:
+        	APPLICATION_TYPE
+        	AFFILIATION
+        	CLASSIFICATION
+        	USE_CASE
+        	ORGANIZATION
+        	STATUS
+        	INCOME_AMT
+        	SPECIAL_CONSIDERATIONS
+        	ASK_AMT
+•	Dropped Features:
+    o	During optimization:
+        	In v1: Dropped “STATUS,” “AFFILIATION,” and “SPECIAL_CONSIDERATIONS.” Surprisingly, this had -ve     impact on accuracy.
+        	In v3: Dropped “STATUS.”
+
+
+              
 ## Compiling, Training, and Evaluating the Model
 •	Initial version (StaterCode.jpynb)
     o	Accuracy: 0.7270
